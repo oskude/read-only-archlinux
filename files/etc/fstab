@@ -1,0 +1,7 @@
+PARTLABEL=roarch_root /     ext4 noatime,ro 0 1
+PARTLABEL=roarch_boot /boot vfat noatime,ro 0 2
+# needed for read-only /
+tmpfs /root      tmpfs rw,size=10M  0 0
+tmpfs /var/tmp   tmpfs rw,size=10M  0 0
+tmpfs /var/log   tmpfs rw,size=100M 0 0
+tmpfs /var/cache tmpfs rw           0 0

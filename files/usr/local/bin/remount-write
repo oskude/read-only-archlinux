@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+mount --read-write -o remount /
+mount --read-write -o remount /boot

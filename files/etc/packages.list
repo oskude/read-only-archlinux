@@ -1,0 +1,12 @@
+# mini-base
+filesystem
+linux
+systemd-sysvcompat
+bash
+pacman
+nano
+
+# desktop
+xorg-server
+xorg-xinit
+xterm
